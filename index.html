@@ -3,44 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chotupay: GST-compliant billing software for retail, e-commerce & small businesses. Cloud-based POS, inventory management, invoicing & accounting tools.">
-    <meta name="keywords" content="GST billing software India, POS software, billing app, invoice software, retail billing solution, inventory management, barcode billing, cloud POS">
-    <meta property="og:title" content="Chotupay - Smart Billing & Accounting Software for Modern Businesses">
-    <meta property="og:description" content="Streamline your business with AI-powered GST billing, cloud-based POS, and real-time inventory management. Start free today!">
+    <meta name="description" content="Chotupay: GST-compliant billing software for Indian businesses. Cloud-based POS, inventory management, invoicing, e-invoicing (IRN), barcode billing, and accounting solutions. 30-day free trial.">
+    <meta name="keywords" content="GST billing software India, POS software, billing app, invoice software, retail billing solution, inventory management system, barcode billing software, cloud POS, e-invoicing, IRN generation, GST compliance tool, billing and accounting software">
+    <meta property="og:title" content="Chotupay - Smart GST Billing & POS Software for Modern Indian Businesses">
+    <meta property="og:description" content="Complete billing solution for Indian retailers. GST-compliant invoices, POS system, inventory tracking, and accounting - all in one platform. Start free today!">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://chotupay.com">
-    <meta name="theme-color" content="#10b981">
+    <meta name="theme-color" content="#F29F67">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Chotupay">
     
-    <title>Chotupay - GST Billing & POS Software for Indian Businesses | Free Trial</title>
+    <title>Chotupay - GST Billing & POS Software for Indian Businesses | Free 30-Day Trial</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-primary: #F29F67;
+            --color-secondary: #1E1E2C;
+            --color-blue: #3B8FF3;
+            --color-teal: #34B1AA;
+            --color-yellow: #E0B50F;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+            color: #1a202c;
+            line-height: 1.6;
+        }
+        
+        .btn-primary {
+            background-color: var(--color-primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn-primary:hover {
+            background-color: #e08a52;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(242, 159, 103, 0.3);
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            border: 2px solid white;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
-<body class="bg-slate-50 text-slate-900" style="font-family: 'Inter', sans-serif;">
+<body>
     
-    <!-- Navigation Bar (Shared) -->
-    <nav class="fixed top-0 w-full z-50 bg-gradient-to-r from-emerald-500 to-green-600 shadow-lg transition-all duration-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 w-full z-50 shadow-lg transition-all duration-300" style="background: linear-gradient(to right, var(--color-primary), #e08a52);">
+        <div class="container">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center space-x-2">
                     <a href="#home" class="flex items-center space-x-2">
-                        <img src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/49deef78-e866-4938-93a7-6c30f87b3805" alt="Chotupay Logo" class="h-8 w-auto">
+                        <img src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/49deef78-e866-4938-93a7-6c30f87b3805" alt="Chotupay Logo - GST Billing Software" class="h-8 w-auto">
                     </a>
                 </div>
                 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#home" class="nav-link text-white/90 hover:text-white font-semibold transition">Home</a>
-                    <a href="#features" class="nav-link text-white/90 hover:text-white font-semibold transition">Features</a>
-                    <a href="#pricing" class="nav-link text-white/90 hover:text-white font-semibold transition">Pricing</a>
-                    <a href="#blog" class="nav-link text-white/90 hover:text-white font-semibold transition">Blog</a>
-                    <a href="#faq" class="nav-link text-white/90 hover:text-white font-semibold transition">FAQ</a>
-                    <a href="#contact" class="nav-link text-white/90 hover:text-white font-semibold transition">Contact</a>
+                    <a href="#home" class="text-white/90 hover:text-white font-semibold transition">Home</a>
+                    <a href="#features" class="text-white/90 hover:text-white font-semibold transition">Features</a>
+                    <a href="#modules" class="text-white/90 hover:text-white font-semibold transition">Modules</a>
+                    <a href="#pricing" class="text-white/90 hover:text-white font-semibold transition">Pricing</a>
+                    <a href="#faq" class="text-white/90 hover:text-white font-semibold transition">FAQ</a>
+                    <a href="#contact" class="text-white/90 hover:text-white font-semibold transition">Contact</a>
                 </div>
 
                 <!-- CTA & Mobile Menu Toggle -->
                 <div class="flex items-center space-x-4">
-                    <button class="hidden md:block px-6 py-2 bg-white text-emerald-600 rounded-lg font-semibold hover:shadow-xl hover:shadow-white/30 transition-all duration-300 transform hover:scale-105">
+                    <button class="hidden md:block px-6 py-2 bg-white text-orange-600 rounded-lg font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105" onclick="window.location.href='https://app.chotupay.com/business/register'">
                         Start Free Trial
                     </button>
                     <button id="mobile-menu-btn" class="md:hidden text-white text-2xl">
@@ -53,15 +147,15 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-gradient-to-b from-emerald-600 to-green-700 border-t border-white/20">
+        <div id="mobile-menu" class="hidden md:hidden" style="background: linear-gradient(to bottom, #e08a52, var(--color-primary)); border-top: 1px solid rgba(255,255,255,0.2);">
             <div class="px-4 pt-4 pb-4 space-y-3">
                 <a href="#home" class="block text-white/90 hover:text-white font-semibold transition py-2">Home</a>
                 <a href="#features" class="block text-white/90 hover:text-white font-semibold transition py-2">Features</a>
+                <a href="#modules" class="block text-white/90 hover:text-white font-semibold transition py-2">Modules</a>
                 <a href="#pricing" class="block text-white/90 hover:text-white font-semibold transition py-2">Pricing</a>
-                <a href="#blog" class="block text-white/90 hover:text-white font-semibold transition py-2">Blog</a>
                 <a href="#faq" class="block text-white/90 hover:text-white font-semibold transition py-2">FAQ</a>
                 <a href="#contact" class="block text-white/90 hover:text-white font-semibold transition py-2">Contact</a>
-                <button class="w-full px-4 py-2 bg-white text-emerald-600 rounded-lg font-semibold hover:shadow-lg transition-all duration-300">
+                <button class="w-full px-4 py-2 bg-white text-orange-600 rounded-lg font-semibold hover:shadow-lg transition-all duration-300" onclick="window.location.href='https://app.chotupay.com/business/register'">
                     Start Free Trial
                 </button>
             </div>
@@ -69,63 +163,61 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="pt-20 pb-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden min-h-screen flex items-center">
-        <div class="absolute inset-0 bg-gradient-to-br from-emerald-500 via-green-500 to-teal-600"></div>
-        
-        <div class="absolute top-20 right-20 w-96 h-96 bg-blue-400 rounded-full mix-blend-screen filter blur-3xl opacity-20 animate-blob"></div>
-        <div class="absolute -bottom-32 left-10 w-96 h-96 bg-purple-400 rounded-full mix-blend-screen filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
-        <div class="absolute top-1/2 left-1/4 w-96 h-96 bg-emerald-400 rounded-full mix-blend-screen filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
-        
+    <section id="home" class="pt-24 pb-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden min-h-screen flex items-center" style="background: linear-gradient(135deg, var(--color-primary), #e08a52);">
         <div class="absolute inset-0 opacity-10" style="background-image: linear-gradient(45deg, rgba(255,255,255,.1) 1px, transparent 1px); background-size: 50px 50px;"></div>
         
-        <div class="max-w-7xl mx-auto relative z-10 w-full">
+        <div class="container relative z-10 w-full">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div class="text-white">
+                <div class="text-white fade-in">
                     <div class="inline-block mb-6 px-4 py-2 bg-white/10 backdrop-blur border border-white/20 rounded-full">
-                        <span class="text-white font-semibold text-sm">🚀 15+ Modules | Cloud-Based | GST Compliant</span>
+                        <span class="text-white font-semibold text-sm">🚀 15+ Modules | Cloud-Based | GST Compliant | E-Invoicing Support</span>
                     </div>
                     
-                    <h1 class="text-6xl md:text-7xl font-bold mb-6 leading-tight" style="font-family: 'Poppins', sans-serif;">
-                        Smart Billing for <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 via-purple-200 to-emerald-200">Modern Businesses</span>
+                    <h1 class="text-6xl md:text-7xl font-bold mb-6 leading-tight">
+                        Smart GST Billing & POS for <span style="background: linear-gradient(to right, #3B8FF3, #34B1AA); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Indian Businesses</span>
                     </h1>
                     
                     <p class="text-xl text-white/90 mb-4 leading-relaxed max-w-xl">
-                        Streamline your business with AI-powered GST billing, cloud-based POS, real-time inventory tracking, and automated accounting—all in one powerful platform.
+                        Complete billing solution with AI-powered GST invoicing, cloud-based POS system, real-time inventory tracking, e-invoicing (IRN), barcode billing, and automated accounting—all in one powerful platform designed for Indian retailers and businesses.
                     </p>
                     <p class="text-sm text-white/80 font-semibold max-w-xl mb-8">
-                        🇮🇳 Designed for Indian businesses • GST-compliant • Barcode POS billing • E-invoice support • Mobile app included
+                        🇮🇳 Built for Indian GST Compliance • Auto-calculated tax invoices • E-invoice & IRN generation • Barcode POS billing • Real-time inventory • Mobile app included • Bank-level security
                     </p>
 
                     <div class="flex flex-col sm:flex-row gap-4 mb-12">
-                        <button class="px-8 py-4 bg-white text-emerald-600 rounded-lg font-semibold text-lg hover:shadow-2xl hover:shadow-white/30 transition-all duration-300 transform hover:scale-105">
-                            Start Free Trial (No Card Required)
+                        <button class="px-8 py-4 bg-white text-orange-600 rounded-lg font-semibold text-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105" onclick="window.location.href='https://app.chotupay.com/business/register'">
+                            Start Free Trial (30 Days)
                         </button>
-                        <button class="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold text-lg hover:bg-white/10 transition-all duration-300 backdrop-blur">
-                            Watch Demo
+                        <button class="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold text-lg hover:bg-white/10 transition-all duration-300 backdrop-blur" onclick="window.location.href='https://app.chotupay.com/login'">
+                            Sign-in
                         </button>
                     </div>
 
                     <div class="flex flex-wrap gap-6 text-sm text-white/90">
                         <div class="flex items-center gap-2">
-                            <svg class="w-5 h-5 text-emerald-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                             <span>30-Day Free Trial</span>
                         </div>
                         <div class="flex items-center gap-2">
-                            <svg class="w-5 h-5 text-emerald-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                            <span>Bank-Level Security</span>
+                            <svg class="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>AES-256 Encryption</span>
                         </div>
                         <div class="flex items-center gap-2">
-                            <svg class="w-5 h-5 text-emerald-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                             <span>24/7 Support</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>99.9% Uptime</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="relative">
+                <div class="relative fade-in" style="animation-delay: 0.2s;">
                     <div class="relative w-full h-[500px] bg-white/10 backdrop-blur rounded-3xl border border-white/20 overflow-hidden shadow-2xl">
-                        <img id="heroImage" class="w-full h-full object-cover" 
+                        <img class="w-full h-full object-cover" 
                              src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/b47de96f-2722-4f43-84d3-c683ac67a4a2" 
-                             alt="Chotupay GST billing dashboard" 
+                             alt="Chotupay GST billing dashboard screenshot - Cloud-based billing software" 
                              loading="lazy">
                     </div>
                 </div>
@@ -133,429 +225,569 @@
         </div>
     </section>
 
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-emerald-500 to-green-600">
-        <div class="max-w-2xl mx-auto text-center text-white">
-            <h2 class="text-4xl font-bold mb-6" style="font-family: 'Poppins', sans-serif;">Subscribe to Our Newsletter</h2>
-            <p class="text-lg text-emerald-50 mb-8">Get weekly tips, updates, and billing insights delivered to your inbox</p>
-            <form class="flex flex-col sm:flex-row gap-3">
-                <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg text-slate-900 focus:outline-none">
-                <button type="submit" class="px-8 py-3 bg-white text-emerald-600 rounded-lg font-semibold hover:shadow-lg transition-all">Subscribe</button>
-            </form>
-        </div>
-    </section>
-
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
-        <div class="max-w-6xl mx-auto">
+    <!-- Key Highlights Section -->
+    <section id="features" class="py-20 px-4 sm:px-6 lg:px-8" style="background-color: var(--color-secondary);">
+        <div class="container">
+            <h2 class="text-4xl font-bold text-center mb-12 text-white">
+                Core Features for Modern Billing
+            </h2>
+            
             <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-                <div class="p-6 bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl border border-emerald-100">
+                <!-- Orange Card - GST Billing -->
+                <div class="p-6 rounded-2xl border border-orange-200 bg-gradient-to-br from-orange-500/10 to-orange-400/5 hover:shadow-lg transition-all duration-300 transform hover:scale-105 card-hover" style="border-color: rgba(242, 159, 103, 0.3);">
                     <div class="text-4xl mb-3">📊</div>
-                    <h3 class="font-semibold text-slate-900 mb-2">GST-Compliant</h3>
-                    <p class="text-slate-600 text-sm">Auto-calculated GST invoices & tax reports</p>
+                    <h3 class="font-semibold text-white mb-2">GST-Compliant Invoicing</h3>
+                    <p class="text-gray-300 text-sm">Auto-calculated GST invoices with tax reports, GST return filing support, and IRN generation for e-invoicing</p>
                 </div>
-                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl border border-blue-100">
+                
+                <!-- Blue Card - POS System -->
+                <div class="p-6 rounded-2xl border border-blue-200 bg-gradient-to-br from-blue-500/10 to-blue-400/5 hover:shadow-lg transition-all duration-300 transform hover:scale-105 card-hover" style="border-color: rgba(59, 143, 243, 0.3);">
                     <div class="text-4xl mb-3">🏪</div>
-                    <h3 class="font-semibold text-slate-900 mb-2">POS System</h3>
-                    <p class="text-slate-600 text-sm">Fast retail billing with barcode scanning</p>
+                    <h3 class="font-semibold text-white mb-2">Advanced POS System</h3>
+                    <p class="text-gray-300 text-sm">Fast retail billing with barcode scanning, multi-location support, offline mode, and real-time sales tracking</p>
                 </div>
-                <div class="p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl border border-purple-100">
+                
+                <!-- Teal Card - Inventory -->
+                <div class="p-6 rounded-2xl border border-teal-200 bg-gradient-to-br from-teal-500/10 to-teal-400/5 hover:shadow-lg transition-all duration-300 transform hover:scale-105 card-hover" style="border-color: rgba(52, 177, 170, 0.3);">
                     <div class="text-4xl mb-3">📦</div>
-                    <h3 class="font-semibold text-slate-900 mb-2">Inventory</h3>
-                    <p class="text-slate-600 text-sm">Real-time stock tracking & management</p>
+                    <h3 class="font-semibold text-white mb-2">Inventory Management</h3>
+                    <p class="text-gray-300 text-sm">Real-time stock tracking with barcode scanning, automatic reorder alerts, multi-warehouse support, and SKU management</p>
                 </div>
-                <div class="p-6 bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl border border-amber-100">
+                
+                <!-- Yellow Card - Cloud Based -->
+                <div class="p-6 rounded-2xl border border-yellow-200 bg-gradient-to-br from-yellow-500/10 to-yellow-400/5 hover:shadow-lg transition-all duration-300 transform hover:scale-105 card-hover" style="border-color: rgba(224, 181, 15, 0.3);">
                     <div class="text-4xl mb-3">☁️</div>
-                    <h3 class="font-semibold text-slate-900 mb-2">Cloud-Based</h3>
-                    <p class="text-slate-600 text-sm">Access anywhere, anytime on any device</p>
+                    <h3 class="font-semibold text-white mb-2">Cloud-Based Platform</h3>
+                    <p class="text-gray-300 text-sm">Access anywhere on any device, automatic backups, geo-redundancy, instant updates, mobile app included</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="features" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-slate-900" style="font-family: 'Poppins', sans-serif;">Powerful Features for Every Business</h2>
-                <p class="text-slate-600">15+ integrated modules designed to streamline your operations</p>
+    <!-- Features Section -->
+    <section id="modules" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="container">
+            <h2 class="text-4xl font-bold text-center mb-4" style="color: var(--color-secondary);">
+                15+ Integrated Modules for Complete Business Management
+            </h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+                Everything you need to run your business efficiently - from billing and accounting to inventory and customer relationship management
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Invoicing & Billing -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-orange-50 to-white border border-orange-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">📄</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: var(--color-primary);">GST Invoicing & Billing</h3>
+                        <p class="text-gray-600">Create GST-compliant invoices instantly. Send automated payment reminders, track receivables, and manage payment status with ease.</p>
+                    </div>
+                </div>
+                
+                <!-- Analytics -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-blue-50 to-white border border-blue-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">📈</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: var(--color-blue);">Real-Time Analytics & Insights</h3>
+                        <p class="text-gray-600">Advanced dashboards showing sales, margins, expenses, profit/loss, and key business metrics with customizable reports.</p>
+                    </div>
+                </div>
+                
+                <!-- Inventory -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-teal-50 to-white border border-teal-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">📦</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: var(--color-teal);">Inventory Management System</h3>
+                        <p class="text-gray-600">Track products with barcode scanning across multiple locations in real-time. Automatic stock alerts and reorder management.</p>
+                    </div>
+                </div>
+                
+                <!-- Accounting -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-yellow-50 to-white border border-yellow-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">💰</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: var(--color-yellow);">Accounting & Expense Tracking</h3>
+                        <p class="text-gray-600">Categorize spending, monitor cash flow, generate financial statements, and optimize costs with detailed expense reports.</p>
+                    </div>
+                </div>
+                
+                <!-- POS System -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-purple-50 to-white border border-purple-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">🏪</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: #8b5cf6;">Point of Sale (POS) System</h3>
+                        <p class="text-gray-600">Fast retail billing with barcode scanning, bill prints, payment methods support, offline mode, and sales history tracking.</p>
+                    </div>
+                </div>
+                
+                <!-- CRM -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-red-50 to-white border border-red-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">👥</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: #ef4444;">Customer Relationship Management</h3>
+                        <p class="text-gray-600">Manage customers, interactions, purchase history, loyalty programs, and personalized communications in one place.</p>
+                    </div>
+                </div>
+
+                <!-- E-Invoicing -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-indigo-50 to-white border border-indigo-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">📨</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: #4f46e5;">E-Invoicing & IRN Generation</h3>
+                        <p class="text-gray-600">Automatic IRN generation, QR code generation, e-invoice submission to GST portal, and compliance documentation.</p>
+                    </div>
+                </div>
+
+                <!-- Security -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-green-50 to-white border border-green-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">🔒</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: #16a34a;">Bank-Level Security</h3>
+                        <p class="text-gray-600">AES-256 encryption, SSL/TLS, automatic daily backups, geo-redundancy, 99.9% uptime guarantee, and compliance standards.</p>
+                    </div>
+                </div>
+
+                <!-- Reports -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-cyan-50 to-white border border-cyan-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">📋</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: #0891b2;">Reports & Export</h3>
+                        <p class="text-gray-600">Generate custom reports, export to PDF/Excel/CSV, GST return ready data, financial statements, and business analytics.</p>
+                    </div>
+                </div>
+
+                <!-- Team Collaboration -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-pink-50 to-white border border-pink-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">👨‍💼</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: #ec4899;">Team Collaboration & Access Control</h3>
+                        <p class="text-gray-600">Role-based access controls, user permissions, team management, audit trails, and secure collaboration features.</p>
+                    </div>
+                </div>
+
+                <!-- Mobile App -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-lime-50 to-white border border-lime-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">📱</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: #84cc16;">Mobile App (iOS & Android)</h3>
+                        <p class="text-gray-600">Full-featured mobile billing app, offline mode, real-time sync, push notifications, and on-the-go business management.</p>
+                    </div>
+                </div>
+
+                <!-- GST Compliance -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-amber-50 to-white border border-amber-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">✅</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: #d97706;">GST Compliance & Filing</h3>
+                        <p class="text-gray-600">GSTR summaries, tax return filing support, input tax credit tracking, compliance reports, and deadline reminders.</p>
+                    </div>
+                </div>
+
+                <!-- Supplier Management -->
+                <div class="flex gap-4 p-6 rounded-lg bg-gradient-to-br from-fuchsia-50 to-white border border-fuchsia-100 hover:shadow-lg transition-all card-hover">
+                    <div class="text-4xl flex-shrink-0">🏭</div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2" style="color: #a855f7;">Supplier Management</h3>
+                        <p class="text-gray-600">Manage supplier information, purchase orders, payment history, GSTIN verification, and supplier performance tracking.</p>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Integrations Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8" style="background: linear-gradient(135deg, var(--color-secondary), #2a2a3e);">
+        <div class="container">
+            <h2 class="text-4xl font-bold text-center mb-4 text-white">
+                Seamless Integrations with Popular Platforms
+            </h2>
+            <p class="text-center text-gray-300 mb-12 max-w-2xl mx-auto">
+                Connect Chotupay with your favorite tools and services for a complete business ecosystem
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <div class="p-8 bg-white/5 rounded-lg backdrop-blur border border-white/10 hover:bg-white/10 transition-all card-hover">
+                    <h4 class="text-white font-semibold mb-3 text-lg">E-Commerce Platforms</h4>
+                    <p class="text-gray-300 text-sm">WooCommerce, Shopify, Magento, OpenCart</p>
+                </div>
+                <div class="p-8 bg-white/5 rounded-lg backdrop-blur border border-white/10 hover:bg-white/10 transition-all card-hover">
+                    <h4 class="text-white font-semibold mb-3 text-lg">Payment Gateways</h4>
+                    <p class="text-gray-300 text-sm">Razorpay, PayU, Instamojo, CC Avenue</p>
+                </div>
+                <div class="p-8 bg-white/5 rounded-lg backdrop-blur border border-white/10 hover:bg-white/10 transition-all card-hover">
+                    <h4 class="text-white font-semibold mb-3 text-lg">Analytics & Reports</h4>
+                    <p class="text-gray-300 text-sm">Google Analytics, Tableau, Power BI</p>
+                </div>
+                <div class="p-8 bg-white/5 rounded-lg backdrop-blur border border-white/10 hover:bg-white/10 transition-all card-hover">
+                    <h4 class="text-white font-semibold mb-3 text-lg">Communication Tools</h4>
+                    <p class="text-gray-300 text-sm">Gmail, WhatsApp Business API, SMS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Chotupay -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="container">
+            <h2 class="text-4xl font-bold text-center mb-12" style="color: var(--color-secondary);">
+                Why Choose Chotupay for Your Billing Needs?
+            </h2>
+            
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="p-8 bg-white rounded-2xl border border-slate-200 hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-gradient-to-br from-emerald-100 to-green-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                        <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Professional Invoicing</h3>
-                    <p class="text-slate-600 mb-4">Create GST-compliant invoices in seconds. Send automated reminders and track receivables.</p>
-                    <ul class="text-sm text-slate-600 space-y-2"><li>✓ E-invoice support</li><li>✓ Multiple payment methods</li><li>✓ Digital signatures</li></ul>
+                <div class="p-8 bg-gradient-to-br from-orange-50 to-white rounded-xl border border-orange-100 hover:shadow-xl transition-all card-hover">
+                    <div class="text-5xl mb-4">🇮🇳</div>
+                    <h3 class="text-xl font-semibold mb-3" style="color: var(--color-primary);">Built for India</h3>
+                    <p class="text-gray-700">Designed specifically for Indian businesses with full GST compliance, local tax rules, and regulatory requirements.</p>
                 </div>
-                <div class="p-8 bg-white rounded-2xl border border-slate-200 hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-gradient-to-br from-blue-100 to-cyan-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Financial Analytics</h3>
-                    <p class="text-slate-600 mb-4">Real-time dashboards showing sales, margins, expenses and reports.</p>
-                    <ul class="text-sm text-slate-600 space-y-2"><li>✓ Profit margin analysis</li><li>✓ Monthly/yearly reports</li><li>✓ Tax reports</li></ul>
+
+                <div class="p-8 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:shadow-xl transition-all card-hover">
+                    <div class="text-5xl mb-4">⚡</div>
+                    <h3 class="text-xl font-semibold mb-3" style="color: var(--color-blue);">Lightning Fast</h3>
+                    <p class="text-gray-700">Optimized cloud infrastructure with 99.9% uptime guarantee, instant bill generation, and real-time data sync.</p>
                 </div>
-                <div class="p-8 bg-white rounded-2xl border border-slate-200 hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                        <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Inventory Management</h3>
-                    <p class="text-slate-600 mb-4">Track products with barcode scanning across locations in real-time.</p>
-                    <ul class="text-sm text-slate-600 space-y-2"><li>✓ Barcode scanning</li><li>✓ Stock alerts</li><li>✓ Multi-warehouse</li></ul>
+
+                <div class="p-8 bg-gradient-to-br from-teal-50 to-white rounded-xl border border-teal-100 hover:shadow-xl transition-all card-hover">
+                    <div class="text-5xl mb-4">🔐</div>
+                    <h3 class="text-xl font-semibold mb-3" style="color: var(--color-teal);">Bank-Level Security</h3>
+                    <p class="text-gray-700">AES-256 encryption, SSL/TLS protocols, automatic daily backups, geo-redundancy, and compliance certifications.</p>
                 </div>
-                <div class="p-8 bg-white rounded-2xl border border-slate-200 hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                        <svg class="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Expense Tracking</h3>
-                    <p class="text-slate-600 mb-4">Categorize spending, monitor cash flow, and optimize costs.</p>
+
+                <div class="p-8 bg-gradient-to-br from-yellow-50 to-white rounded-xl border border-yellow-100 hover:shadow-xl transition-all card-hover">
+                    <div class="text-5xl mb-4">💰</div>
+                    <h3 class="text-xl font-semibold mb-3" style="color: var(--color-yellow);">Affordable Pricing</h3>
+                    <p class="text-gray-700">Flexible plans starting from ₹999/month, 30-day free trial, no credit card required, and pay-per-use options.</p>
                 </div>
-                <div class="p-8 bg-white rounded-2xl border border-slate-200 hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-gradient-to-br from-red-100 to-rose-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                        <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 10H9m6 0a6 6 0 11-12 0 6 6 0 0112 0z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Multi-User Collaboration</h3>
-                    <p class="text-slate-600 mb-4">Role-based access controls and secure collaboration features.</p>
+
+                <div class="p-8 bg-gradient-to-br from-purple-50 to-white rounded-xl border border-purple-100 hover:shadow-xl transition-all card-hover">
+                    <div class="text-5xl mb-4">🎯</div>
+                    <h3 class="text-xl font-semibold mb-3" style="color: #8b5cf6;">Easy to Use</h3>
+                    <p class="text-gray-700">Intuitive interface, minimal training required, mobile app included, and comprehensive documentation available.</p>
                 </div>
-                <div class="p-8 bg-white rounded-2xl border border-slate-200 hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                        <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Disaster Recovery</h3>
-                    <p class="text-slate-600 mb-4">Bank-level encryption with automatic cloud backups and uptime guarantee.</p>
-                </div>
-                <div class="p-8 bg-white rounded-2xl border border-slate-200 hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-gradient-to-br from-green-100 to-teal-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                        <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m0 0v2m0-6h2m-2 0h-2"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Customizable Reports</h3>
-                    <p class="text-slate-600 mb-4">Generate tailored reports with exports to PDF, Excel, and CSV.</p>
-                    <ul class="text-sm text-slate-600 space-y-2"><li>✓ 50+ templates</li><li>✓ Scheduled reports</li><li>✓ Email automation</li></ul>
-                </div>
-                <div class="p-8 bg-white rounded-2xl border border-slate-200 hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-gradient-to-br from-pink-100 to-rose-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                        <svg class="w-6 h-6 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.856-1.487M15 10a3 3 0 11-6 0 3 3 0 016 0zM6 20h12a6 6 0 00-6-6 6 6 0 00-6 6z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-semibold text-slate-900 mb-3">CRM Integration</h3>
-                    <p class="text-slate-600 mb-4">Manage customers, interactions, and loyalty—all in one place.</p>
-                    <ul class="text-sm text-slate-600 space-y-2"><li>✓ Customer profiles</li><li>✓ Order history</li><li>✓ Payment tracking</li></ul>
+
+                <div class="p-8 bg-gradient-to-br from-green-50 to-white rounded-xl border border-green-100 hover:shadow-xl transition-all card-hover">
+                    <div class="text-5xl mb-4">🎧</div>
+                    <h3 class="text-xl font-semibold mb-3" style="color: #16a34a;">24/7 Customer Support</h3>
+                    <p class="text-gray-700">Round-the-clock support via email, live chat, phone support on premium plans, and comprehensive knowledge base.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50" id="integrations">
-        <div class="max-w-6xl mx-auto text-center">
-            <h2 class="text-4xl font-bold mb-12 text-slate-900" style="font-family: 'Poppins', sans-serif;">Seamless Integrations</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-                <div class="p-6 bg-white rounded-xl border border-slate-200"><div class="text-3xl mb-3">🛒</div><p class="font-semibold text-slate-900">E-commerce</p><p class="text-sm text-slate-600 mt-1">WooCommerce, Shopify</p></div>
-                <div class="p-6 bg-white rounded-xl border border-slate-200"><div class="text-3xl mb-3">💳</div><p class="font-semibold text-slate-900">Payments</p><p class="text-sm text-slate-600 mt-1">Razorpay, PayU, Instamojo</p></div>
-                <div class="p-6 bg-white rounded-xl border border-slate-200"><div class="text-3xl mb-3">📊</div><p class="font-semibold text-slate-900">Analytics</p><p class="text-sm text-slate-600 mt-1">Google Analytics, Tableau</p></div>
-                <div class="p-6 bg-white rounded-xl border border-slate-200"><div class="text-3xl mb-3">📧</div><p class="font-semibold text-slate-900">Messaging</p><p class="text-sm text-slate-600 mt-1">Gmail, WhatsApp API</p></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="pricing" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-slate-900" style="font-family: 'Poppins', sans-serif;">Simple, Transparent Pricing</h2>
-                <p class="text-slate-600">Choose the perfect plan for your business</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-                <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:shadow-lg transition-all duration-300 flex flex-col">
-                    <h3 class="text-2xl font-bold text-slate-900 mb-2">Basic</h3>
-                    <div class="mb-6"><span class="text-4xl font-bold text-slate-900">₹649</span> <span class="text-slate-600 font-semibold">/Per Month</span></div>
-                    <p class="text-sm text-slate-600 mb-6">Perfect for small businesses getting started</p>
-                    <ul class="space-y-4 mb-8 flex-grow"><li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">1 Business Location</span></li><li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">3 Users</span></li><li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">500 Products</span></li><li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">1000 Invoices</span></li></ul>
-                    <a href="https://app.chotupay.com/business/register" class="w-full px-6 py-3 bg-slate-100 text-slate-900 rounded-lg font-semibold hover:bg-slate-200 transition-all text-center">Buy Package</a>
-                </div>
-                <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:shadow-lg transition-all duration-300 flex flex-col">
-                    <h3 class="text-2xl font-bold text-slate-900 mb-2">Standard</h3>
-                    <div class="mb-6"><span class="text-4xl font-bold text-slate-900">₹1,199</span> <span class="text-slate-600 font-semibold">/Per Month</span></div>
-                    <p class="text-sm text-slate-600 mb-6">Great for growing businesses</p>
-                    <ul class="space-y-4 mb-8 flex-grow"><li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">2 Business Locations</span></li><li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">5 Users</span></li></ul>
-                    <a href="https://app.chotupay.com/business/register" class="w-full px-6 py-3 bg-slate-100 text-slate-900 rounded-lg font-semibold hover:bg-slate-200 transition-all text-center">Buy Package</a>
-                </div>
-                <div class="bg-gradient-to-br from-emerald-50 to-green-50 border-2 border-emerald-500 rounded-2xl p-8 hover:shadow-2xl transition-all duration-300 flex flex-col relative">
-                    <div class="absolute top-0 right-0 bg-emerald-500 text-white px-4 py-1 rounded-bl-2xl rounded-tr-2xl text-sm font-bold">Recommended</div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-2">Premium</h3>
-                    <div class="mb-6"><span class="text-4xl font-bold text-slate-900">₹4,499</span> <span class="text-slate-600 font-semibold">/Per Month</span></div>
-                    <p class="text-sm text-slate-600 mb-6">Most popular for enterprises</p>
-                    <ul class="space-y-4 mb-8 flex-grow"><li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">3 Business Locations</span></li><li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">15 Users</span></li></ul>
-                    <a href="https://app.chotupay.com/business/register" class="w-full px-6 py-3 bg-gradient-to-r from-emerald-500 to-green-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all text-center">Buy Package</a>
-                </div>
-                <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:shadow-lg transition-all duration-300 flex flex-col">
-                    <h3 class="text-2xl font-bold text-slate-900 mb-2">Professional</h3>
-                    <div class="mb-6"><span class="text-4xl font-bold text-slate-900">₹2,899</span> <span class="text-slate-600 font-semibold">/Per Month</span></div>
-                    <p class="text-sm text-slate-600 mb-6">Ideal for established businesses</p>
-                    <ul class="space-y-4 mb-8 flex-grow">
-                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">3 Business Locations</span></li>
-                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">10 Users</span></li>
-                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">1500 Products</span></li>
-                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">2500 Invoices</span></li>
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
+        <div class="container">
+            <h2 class="text-4xl font-bold text-center mb-4" style="color: var(--color-secondary);">
+                Simple, Transparent Pricing Plans
+            </h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+                Choose the perfect plan for your business. No hidden charges, cancel anytime. All plans include 30-day free trial.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Starter Plan -->
+                <div class="p-8 rounded-xl border border-gray-200 hover:shadow-xl transition-all card-hover bg-white">
+                    <h3 class="text-2xl font-bold mb-2" style="color: var(--color-primary);">Starter</h3>
+                    <p class="text-gray-600 text-sm mb-6">Perfect for small businesses and startups getting started</p>
+                    <p class="text-4xl font-bold mb-2"><span style="color: var(--color-primary);">₹999</span></p>
+                    <p class="text-gray-600 text-sm mb-6">/month (billed monthly)</p>
+                    <button class="btn-primary w-full mb-6" onclick="window.location.href='https://app.chotupay.com/business/register'">Start Free Trial</button>
+                    <ul class="space-y-3">
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Up to 1,000 invoices/month</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Basic GST billing</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Simple POS system</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Inventory tracking</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Basic reports</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Email support</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Mobile app access</span></li>
                     </ul>
-                    <a href="https://app.chotupay.com/business/register" class="w-full px-6 py-3 bg-slate-100 text-slate-900 rounded-lg font-semibold hover:bg-slate-200 transition-all text-center">Buy Package</a>
                 </div>
-                <div class="bg-white border border-slate-200 rounded-2xl p-8 hover:shadow-lg transition-all duration-300 flex flex-col">
-                    <h3 class="text-2xl font-bold text-slate-900 mb-2">Elite</h3>
-                    <div class="mb-6"><span class="text-4xl font-bold text-slate-900">₹5,999</span> <span class="text-slate-600 font-semibold">/Per Month</span></div>
-                    <p class="text-sm text-slate-600 mb-6">For large-scale operations</p>
-                    <ul class="space-y-4 mb-8 flex-grow">
-                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">3 Business Locations</span></li>
-                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">25 Users</span></li>
-                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">5000 Products</span></li>
-                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-slate-700">10000 Invoices</span></li>
+                
+                <!-- Professional Plan (Most Popular) -->
+                <div class="p-8 rounded-xl hover:shadow-2xl transition-all bg-gradient-to-br from-orange-50 to-white border-2 card-hover" style="border-color: var(--color-primary); transform: scale(1.05);">
+                    <div class="mb-4 inline-block px-4 py-2 rounded-full text-white text-sm font-bold" style="background-color: var(--color-primary);">⭐ MOST POPULAR</div>
+                    <h3 class="text-2xl font-bold mb-2" style="color: var(--color-primary);">Professional</h3>
+                    <p class="text-gray-600 text-sm mb-6">Best for growing businesses and retail shops</p>
+                    <p class="text-4xl font-bold mb-2"><span style="color: var(--color-primary);">₹2,999</span></p>
+                    <p class="text-gray-600 text-sm mb-6">/month (billed monthly) | Save 20% on annual</p>
+                    <button class="btn-primary w-full mb-6" onclick="window.location.href='https://app.chotupay.com/business/register'">Start Free Trial</button>
+                    <ul class="space-y-3">
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Unlimited invoices</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Advanced GST compliance</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Advanced POS system</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Multi-location support</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Advanced analytics dashboard</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>E-invoicing & IRN support</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>CRM features</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Priority support</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>All integrations</span></li>
                     </ul>
-                    <a href="https://app.chotupay.com/business/register" class="w-full px-6 py-3 bg-slate-100 text-slate-900 rounded-lg font-semibold hover:bg-slate-200 transition-all text-center">Buy Package</a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="blog" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-slate-900" style="font-family: 'Poppins', sans-serif;">Chotupay Blog</h2>
-                <p class="text-slate-600">Tips, guides, and insights for smarter billing</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <article class="bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-all">
-                    <div class="h-48 bg-gradient-to-br from-emerald-400 to-green-500 flex items-center justify-center"><span class="text-6xl">💼</span></div>
-                    <div class="p-6">
-                        <div class="flex items-center gap-3 mb-3"><span class="text-xs bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full">Business</span><span class="text-xs text-slate-500">Dec 10, 2024</span></div>
-                        <h3 class="text-xl font-semibold text-slate-900 mb-3">10 GST Compliance Tips for Indian Retailers</h3>
-                        <p class="text-slate-600 mb-4">Learn essential GST compliance tips to avoid penalties and streamline billing.</p>
-                        <a href="#blog-post-1" class="text-emerald-600 font-semibold hover:text-emerald-700 transition">Read More →</a>
-                    </div>
-                </article>
-                <article class="bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-all">
-                    <div class="h-48 bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center"><span class="text-6xl">📊</span></div>
-                    <div class="p-6">
-                        <div class="flex items-center gap-3 mb-3"><span class="text-xs bg-blue-100 text-blue-700 px-3 py-1 rounded-full">Analytics</span><span class="text-xs text-slate-500">Dec 8, 2024</span></div>
-                        <h3 class="text-xl font-semibold text-slate-900 mb-3">How to Analyze Your Business Performance with Data</h3>
-                        <p class="text-slate-600 mb-4">Master data analysis to make informed decisions with real-time insights.</p>
-                        <a href="#blog-post-2" class="text-emerald-600 font-semibold hover:text-emerald-700 transition">Read More →</a>
-                    </div>
-                </article>
-                <article class="bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-all">
-                    <div class="h-48 bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center"><span class="text-6xl">🚀</span></div>
-                    <div class="p-6">
-                        <div class="flex items-center gap-3 mb-3"><span class="text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">Growth</span><span class="text-xs text-slate-500">Dec 5, 2024</span></div>
-                        <h3 class="text-xl font-semibold text-slate-900 mb-3">Scaling Your E-commerce Business: A Beginner's Guide</h3>
-                        <p class="text-slate-600 mb-4">Discover strategies to scale your e-commerce business efficiently.</p>
-                        <a href="#blog" class="text-emerald-600 font-semibold hover:text-emerald-700 transition">Read More →</a>
-                    </div>
-                </article>
-            </div>
-            <div class="mt-16 text-center">
-                <button class="px-8 py-4 bg-gradient-to-r from-emerald-500 to-green-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all">Load More Articles</button>
-            </div>
-        </div>
-    </section>
-
-    <section id="blog-post-1" class="pt-20 pb-20 bg-white">
-        <div class="h-64 bg-gradient-to-br from-emerald-500 to-green-600 flex items-center justify-center"><span class="text-7xl">💼</span></div>
-        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div class="flex items-center gap-4 mb-6 text-slate-600"><span class="text-xs bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full">Business</span><span>Dec 10, 2024</span><span>8 min read</span></div>
-            <h1 class="text-4xl font-bold mb-6 text-slate-900" style="font-family: 'Poppins', sans-serif;">10 GST Compliance Tips for Indian Retailers</h1>
-            <div class="prose prose-lg max-w-none">
-                <p class="text-lg text-slate-700 mb-6">GST compliance is crucial for Indian retailers. In this guide, we'll share 10 essential tips to help you stay compliant, avoid penalties, and streamline your billing process.</p>
-                <h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">1. Maintain Accurate Records</h2>
-                <p class="text-slate-700 mb-6">Keep detailed records of all invoices, receipts, and payments. Accurate record-keeping helps during audits.</p>
-                <h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">2. File Returns On Time</h2>
-                <p class="text-slate-700 mb-6">Always file required returns before deadlines to avoid penalties.</p>
-                <h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">3. Use GST-Compliant Invoicing Software</h2>
-                <p class="text-slate-700 mb-6">Use software like Chotupay that automates GST calculations and invoicing.</p>
-                <h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">4. Verify Supplier GSTIN</h2>
-                <p class="text-slate-700 mb-6">Verify supplier GSTINs to ensure ITC eligibility and prevent fraud.</p>
-                <h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">5. Reconcile Monthly</h2>
-                <p class="text-slate-700 mb-6">Identify discrepancies early by monthly reconciliation.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="blog-post-2" class="pt-20 pb-20 bg-white">
-        <div class="h-64 bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center"><span class="text-7xl">📊</span></div>
-        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div class="flex items-center gap-4 mb-6 text-slate-600"><span class="text-xs bg-blue-100 text-blue-700 px-3 py-1 rounded-full">Analytics</span><span>Dec 8, 2024</span><span>7 min read</span></div>
-            <h1 class="text-4xl font-bold mb-6 text-slate-900" style="font-family: 'Poppins', sans-serif;">How to Analyze Your Business Performance with Data</h1>
-            <div class="prose prose-lg max-w-none">
-                <p class="text-lg text-slate-700 mb-6">Master the art of data analysis to make informed decisions and grow your business faster with real-time insights.</p>
-                <h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">Build Actionable Dashboards</h2>
-                <p class="text-slate-700 mb-6">Use dashboards that highlight KPIs like sales, margins, and customer trends.</p>
-                <h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">Segment Your Data</h2>
-                <p class="text-slate-700 mb-6">Slice data by products, locations, and time ranges to find patterns.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="faq" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div class="max-w-4xl mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-slate-900" style="font-family: 'Poppins', sans-serif;">Frequently Asked Questions</h2>
-                <p class="text-slate-600">Find answers to common questions about Chotupay</p>
-            </div>
-            <div class="space-y-4">
-                <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>What is Chotupay?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">Chotupay is cloud-based billing and accounting software for Indian businesses with full GST compliance.</p></details>
-                <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>Is Chotupay really free to start?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">Yes. Free plan with core features and limited invoices. Upgrade anytime.</p></details>
-                <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>Who is Chotupay for?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">Small businesses, retail, e-commerce, restaurants, and service providers.</p></details>
-            </div>
-
-            <div class="mt-12">
-                <h3 class="text-2xl font-bold text-slate-900 mb-6">Features & Usage</h3>
-                <div class="space-y-4">
-                    <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>What are the main features of Chotupay?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">15+ modules: invoicing, GST billing, POS, inventory, analytics, CRM, mobile app, barcode scanning, e-invoice support.</p></details>
-                    <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>Can I use Chotupay on mobile?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">Yes. Fully responsive plus native iOS/Android apps on select plans.</p></details>
-                    <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>Does Chotupay support multi-location management?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">Available on higher-tier plans with cross-location inventory sync and consolidated reporting.</p></details>
+                
+                <!-- Enterprise Plan -->
+                <div class="p-8 rounded-xl border border-gray-200 hover:shadow-xl transition-all card-hover bg-white">
+                    <h3 class="text-2xl font-bold mb-2" style="color: var(--color-primary);">Enterprise</h3>
+                    <p class="text-gray-600 text-sm mb-6">For large-scale operations and enterprises</p>
+                    <p class="text-4xl font-bold mb-2"><span style="color: var(--color-primary);">Custom</span></p>
+                    <p class="text-gray-600 text-sm mb-6">tailored to your needs</p>
+                    <button class="btn-primary w-full mb-6" onclick="window.location.href='https://app.chotupay.com/login'">Contact Sales</button>
+                    <ul class="space-y-3">
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Everything in Professional</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Unlimited everything</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Custom integrations</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Dedicated account manager</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>24/7 phone & chat support</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>SLA guarantee (99.99%)</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>API access</span></li>
+                        <li class="text-gray-700 flex items-start"><span class="mr-3" style="color: var(--color-primary);">✓</span> <span>Custom training</span></li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="mt-12">
-                <h3 class="text-2xl font-bold text-slate-900 mb-6">GST & Compliance</h3>
-                <div class="space-y-4">
-                    <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>Is Chotupay GST-compliant?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">Built for Indian GST: automatic tax calculation, GST-compliant invoices, e-invoicing (IRN), tax reports.</p></details>
-                    <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>Can I generate e-invoices with IRN?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">Yes. Automatic IRN generation and QR codes for eligible businesses.</p></details>
-                    <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>Does Chotupay help with GST filing?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">Generates GSTR summaries and exportable data for faster, error-free filing.</p></details>
-                </div>
-            </div>
-
-            <div class="mt-12">
-                <h3 class="text-2xl font-bold text-slate-900 mb-6">Security & Data</h3>
-                <div class="space-y-4">
-                    <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>How secure is my data?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">AES-256 encryption, SSL/TLS, daily backups, geo-redundancy, and compliance with international standards.</p></details>
-                    <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>What is your uptime guarantee?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">99.9% uptime with reliable cloud infrastructure and automatic failover.</p></details>
-                    <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>Can I export my data?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">Yes. Export invoices, reports, and customer info in PDF, Excel, CSV.</p></details>
-                </div>
-            </div>
-
-            <div class="mt-12">
-                <h3 class="text-2xl font-bold text-slate-900 mb-6">Pricing & Support</h3>
-                <div class="space-y-4">
-                    <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>Can I upgrade or downgrade anytime?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">Yes. Changes apply immediately for upgrades and next cycle for downgrades.</p></details>
-                    <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>Is there a discount for annual billing?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">Save 20% on annual billing. Custom pricing available for enterprises.</p></details>
-                    <details class="p-6 bg-slate-50 rounded-xl border border-slate-200 group cursor-pointer"><summary class="flex items-center justify-between font-semibold text-slate-900"><span>What support do you offer?</span><svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></summary><p class="text-slate-600 mt-4">24/7 email and live chat; priority and phone support on higher plans.</p></details>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div class="max-w-6xl mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                <div>
-                    <h2 class="text-3xl font-bold text-slate-900 mb-8" style="font-family: 'Poppins', sans-serif;">Our Offices</h2>
-                    <div class="space-y-12">
-                        <div class="p-8 bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl border border-emerald-200">
-                            <div class="flex items-start gap-4 mb-4"><div class="flex-shrink-0"><div class="flex items-center justify-center h-12 w-12 rounded-lg bg-emerald-500"><svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></div></div><div><h3 class="text-2xl font-bold text-slate-900 mb-1">Coimbatore Office</h3><p class="text-emerald-600 font-semibold">Headquarters</p></div></div>
-                            <div class="space-y-4 ml-16"><div class="flex gap-3"><svg class="h-5 w-5 text-emerald-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 111.314 0z"></path></svg><div><p class="text-sm text-slate-600">Address</p><p class="font-semibold text-slate-900">Rengas Triambava, Sitra, Coimbatore</p></div></div><div class="flex gap-3"><svg class="h-5 w-5 text-emerald-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 00.948.684l1.498 4.493a1 1 0 00.502.756l2.73 1.365a1 1 0 001.27-1.27L13.596 9l3.575 3.575a1 1 0 001.27-1.27l-2.73-1.365a1 1 0 00-.756-.502l-4.493-1.498a1 1 0 00-.684-.948L9 3.75A2 2 0 007 5H5a2 2 0 00-2 2v12a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2h-3l.5 1.007A.5.5 0 0016 5h-2a.5.5 0 00-.5.5v.5a.5.5 0 00.5.5h2a.5.5 0 00.5-.5v-.5A.5.5 0 0016 4h1a1 1 0 001-1V3z"></path></svg><div><p class="text-sm text-slate-600">Phone</p><a href="tel:+918012108456" class="font-semibold text-emerald-600 hover:text-emerald-700 transition">+91 80121 08456</a></div></div><div class="flex gap-3"><svg class="h-5 w-5 text-emerald-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg><div><p class="text-sm text-slate-600">Email</p><a href="mailto:info@techniksoftsolutions.com" class="font-semibold text-emerald-600 hover:text-emerald-700 transition break-all">info@techniksoftsolutions.com</a></div></div></div>
-                        </div>
-                        <div class="p-8 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl border border-blue-200">
-                            <div class="flex items-start gap-4 mb-4"><div class="flex-shrink-0"><div class="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-500"><svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></div></div><div><h3 class="text-2xl font-bold text-slate-900 mb-1">Chennai Office</h3><p class="text-blue-600 font-semibold">Regional Office</p></div></div>
-                            <div class="space-y-4 ml-16"><div class="flex gap-3"><svg class="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 111.314 0z"></path></svg><div><p class="text-sm text-slate-600">Address</p><p class="font-semibold text-slate-900">Ambattur, Chennai – 600 098</p></div></div><div class="flex gap-3"><svg class="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 00.948.684l1.498 4.493a1 1 0 00.502.756l2.73 1.365a1 1 0 001.27-1.27L13.596 9l3.575 3.575a1 1 0 001.27-1.27l-2.73-1.365a1 1 0 00-.756-.502l-4.493-1.498a1 1 0 00-.684-.948L9 3.75A2 2 0 007 5H5a2 2 0 00-2 2v12a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2h-3l.5 1.007A.5.5 0 0016 5h-2a.5.5 0 00-.5.5v.5a.5.5 0 00.5.5h2a.5.5 0 00.5-.5v-.5A.5.5 0 0016 4h1a1 1 0 001-1V3z"></path></svg><div><p class="text-sm text-slate-600">Phone</p><a href="tel:+919444136921" class="font-semibold text-blue-600 hover:text-blue-700 transition">+91 9444136921</a></div></div><div class="flex gap-3"><svg class="h-5 w-5 text-blue-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg><div><p class="text-sm text-slate-600">Email</p><a href="mailto:sales@techniksoftsolutions.com" class="font-semibold text-blue-600 hover:text-blue-700 transition break-all">sales@techniksoftsolutions.com</a></div></div></div>
-                        </div>
-                    </div>
-                    <div class="mt-12 pt-8 border-t border-slate-200">
-                        <h3 class="text-lg font-semibold text-slate-900 mb-4">Follow Us</h3>
-                        <div class="flex gap-4"><a href="#" class="p-3 bg-slate-100 rounded-lg hover:bg-slate-200 transition"><svg class="w-6 h-6 text-slate-600" fill="currentColor" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7"></path></svg></a><a href="#" class="p-3 bg-slate-100 rounded-lg hover:bg-slate-200 transition"><svg class="w-6 h-6 text-slate-600" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a6 6 0 00-6 6v3H7v4h2v8h4v-8h3l1-4h-4V8a2 2 0 012-2h3z"></path></svg></a><a href="#" class="p-3 bg-slate-100 rounded-lg hover:bg-slate-200 transition"><svg class="w-6 h-6 text-slate-600" fill="currentColor" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1112.63 8" fill="white"></path></svg></a><a href="#" class="p-3 bg-slate-100 rounded-lg hover:bg-slate-200 transition"><svg class="w-6 h-6 text-slate-600" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg></a></div>
-                    </div>
-                </div>
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200">
-                    <h2 class="text-3xl font-bold text-slate-900 mb-8" style="font-family: 'Poppins', sans-serif;">Send us a Message</h2>
-                    <form action="https://formspree.io/f/xyzabcde" method="POST" class="space-y-6">
-                        <div><label for="name" class="block text-sm font-semibold text-slate-900 mb-2">Full Name</label><input type="text" id="name" name="name" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="John Doe"></div>
-                        <div><label for="email" class="block text-sm font-semibold text-slate-900 mb-2">Email Address</label><input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="john@example.com"></div>
-                        <div><label for="phone" class="block text-sm font-semibold text-slate-900 mb-2">Phone Number</label><input type="tel" id="phone" name="phone" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="+91 98765 43210"></div>
-                        <div><label for="subject" class="block text-sm font-semibold text-slate-900 mb-2">Subject</label><select id="subject" name="subject" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500"><option value="">Select a subject</option><option value="sales">Sales Inquiry</option><option value="support">Technical Support</option><option value="feedback">Feedback</option><option value="demo">Request a Demo</option><option value="partnership">Partnership</option><option value="other">Other</option></select></div>
-                        <div><label for="message" class="block text-sm font-semibold text-slate-900 mb-2">Message</label><textarea id="message" name="message" rows="5" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 resize-none" placeholder="Tell us how we can help..."></textarea></div>
-                        <button type="submit" class="w-full px-6 py-3 bg-gradient-to-r from-emerald-500 to-green-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all duration-300">Send Message</button>
-                        <p class="text-xs text-slate-600 text-center">We'll get back to you within 24 hours</p>
-                    </form>
-                </div>
+            <div class="mt-12 p-8 rounded-lg bg-gradient-to-r from-blue-50 to-teal-50 border border-blue-200 text-center">
+                <h3 class="text-2xl font-bold mb-2" style="color: var(--color-secondary);">Special Offer</h3>
+                <p class="text-gray-700 mb-4">Save 20% on annual billing • Free migration from existing software • No setup fees</p>
+                <p class="text-sm text-gray-600">Join 5000+ happy customers already using Chotupay</p>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-emerald-500 to-green-600 relative overflow-hidden">
+    <section class="py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden" style="background: linear-gradient(135deg, var(--color-primary), #e08a52);">
         <div class="absolute top-0 right-0 w-96 h-96 bg-white opacity-10 rounded-full -mr-48 -mt-48"></div>
         <div class="absolute bottom-0 left-0 w-96 h-96 bg-white opacity-10 rounded-full -ml-48 -mb-48"></div>
 
-        <div class="max-w-4xl mx-auto text-center relative z-10">
-            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-white" style="font-family: 'Poppins', sans-serif;">
-                Ready to Transform Your Business?
+        <div class="container text-center relative z-10">
+            <h2 class="text-5xl font-bold mb-6 text-white">
+                Ready to Simplify Your Billing?
             </h2>
-            <p class="text-xl text-emerald-50 mb-8 max-w-2xl mx-auto">
-                Join thousands of successful businesses using Chotupay. Start your free 30-day trial today. No credit card required.
+            <p class="text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
+                Join thousands of successful Indian businesses using Chotupay. Start your free 30-day trial today. No credit card required.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <button class="px-8 py-4 bg-white text-emerald-600 rounded-lg font-semibold text-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
-                    Start Free Trial
+                <button class="px-10 py-4 bg-white text-orange-600 rounded-lg font-bold text-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105" onclick="window.location.href='https://app.chotupay.com/business/register'">
+                    Start Free Trial Now
                 </button>
-                <button class="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold text-lg hover:bg-white/10 transition-all duration-300">
-                    Schedule Demo
+                <button class="px-10 py-4 border-2 border-white text-white rounded-lg font-bold text-lg hover:bg-white/10 transition-all duration-300" onclick="window.location.href='https://app.chotupay.com/login'">
+                    Sign-in to Your Account
                 </button>
             </div>
         </div>
     </section>
 
-    <!-- Footer (Shared) -->
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="container">
+            <h2 class="text-4xl font-bold text-center mb-4" style="color: var(--color-secondary);">
+                Frequently Asked Questions About Chotupay
+            </h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+                Find answers to common questions about our GST billing software and features
+            </p>
+            
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="p-6 border-l-4 rounded-lg hover:shadow-lg transition-all bg-white" style="border-color: var(--color-primary);">
+                    <h3 class="font-semibold text-lg mb-2" style="color: var(--color-secondary);">What is Chotupay and who should use it?</h3>
+                    <p class="text-gray-700">Chotupay is a cloud-based GST billing, POS, and accounting software designed specifically for Indian businesses. It's perfect for retail shops, e-commerce businesses, restaurants, service providers, and small to medium enterprises that need GST-compliant invoicing and inventory management.</p>
+                </div>
+                
+                <div class="p-6 border-l-4 rounded-lg hover:shadow-lg transition-all bg-white" style="border-color: var(--color-primary);">
+                    <h3 class="font-semibold text-lg mb-2" style="color: var(--color-secondary);">Is there a free plan or trial available?</h3>
+                    <p class="text-gray-700">Yes! Chotupay offers a 30-day completely free trial with full access to all features. No credit card is required to start. After the trial, you can upgrade to a paid plan or continue with our free starter plan with limited features.</p>
+                </div>
+                
+                <div class="p-6 border-l-4 rounded-lg hover:shadow-lg transition-all bg-white" style="border-color: var(--color-primary);">
+                    <h3 class="font-semibold text-lg mb-2" style="color: var(--color-secondary);">Does Chotupay support e-invoicing and IRN generation?</h3>
+                    <p class="text-gray-700">Yes, absolutely! Chotupay provides automatic IRN generation for e-invoicing (IRP), QR code generation, and e-invoice submission to the GST portal. This is available on Professional and Enterprise plans and ensures 100% GST compliance.</p>
+                </div>
+                
+                <div class="p-6 border-l-4 rounded-lg hover:shadow-lg transition-all bg-white" style="border-color: var(--color-primary);">
+                    <h3 class="font-semibold text-lg mb-2" style="color: var(--color-secondary);">How many modules does Chotupay have?</h3>
+                    <p class="text-gray-700">Chotupay includes 15+ integrated modules including: GST invoicing, POS system, inventory management, accounting, analytics, CRM, e-invoicing, reports, team collaboration, mobile app, barcode scanning, expense tracking, and more.</p>
+                </div>
+
+                <div class="p-6 border-l-4 rounded-lg hover:shadow-lg transition-all bg-white" style="border-color: var(--color-primary);">
+                    <h3 class="font-semibold text-lg mb-2" style="color: var(--color-secondary);">Is Chotupay safe and secure?</h3>
+                    <p class="text-gray-700">Yes, security is our top priority. Chotupay uses bank-level AES-256 encryption, SSL/TLS protocols, automatic daily backups, geo-redundancy, and complies with international security standards. We guarantee 99.9% uptime with automatic failover.</p>
+                </div>
+
+                <div class="p-6 border-l-4 rounded-lg hover:shadow-lg transition-all bg-white" style="border-color: var(--color-primary);">
+                    <h3 class="font-semibold text-lg mb-2" style="color: var(--color-secondary);">Can I access Chotupay on my mobile phone?</h3>
+                    <p class="text-gray-700">Yes! Chotupay is fully responsive and works on all devices. Plus, we offer dedicated iOS and Android mobile apps with offline mode support so you can bill customers anywhere, anytime.</p>
+                </div>
+
+                <div class="p-6 border-l-4 rounded-lg hover:shadow-lg transition-all bg-white" style="border-color: var(--color-primary);">
+                    <h3 class="font-semibold text-lg mb-2" style="color: var(--color-secondary);">What support options are available?</h3>
+                    <p class="text-gray-700">Chotupay offers 24/7 email and live chat support. Professional and Enterprise plans include phone support and priority responses. We also have comprehensive documentation, video tutorials, and a knowledge base.</p>
+                </div>
+
+                <div class="p-6 border-l-4 rounded-lg hover:shadow-lg transition-all bg-white" style="border-color: var(--color-primary);">
+                    <h3 class="font-semibold text-lg mb-2" style="color: var(--color-secondary);">Can I export my data from Chotupay?</h3>
+                    <p class="text-gray-700">Yes, you can export invoices, reports, and customer information in PDF, Excel, and CSV formats anytime. We ensure complete data portability and have no lock-in contracts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
+        <div class="container">
+            <h2 class="text-4xl font-bold text-center mb-4" style="color: var(--color-secondary);">
+                Get in Touch With Our Team
+            </h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+                Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+            </p>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <!-- Contact Form -->
+                <div class="p-8 bg-white rounded-lg border border-gray-200 hover:shadow-lg transition-all">
+                    <h3 class="text-2xl font-bold mb-6" style="color: var(--color-primary);">Send us a Message</h3>
+                    <form id="contactForm" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
+                            <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 transition-all" style="focus-color: var(--color-primary);" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 transition-all" placeholder="your@email.com">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 transition-all" placeholder="+91 XXXXXXXXXX">
+                        </div>
+                        <div>
+                            <label for="company" class="block text-sm font-semibold text-gray-700 mb-2">Company Name</label>
+                            <input type="text" id="company" name="company" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 transition-all" placeholder="Your Company">
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-sm font-semibold text-gray-700 mb-2">Subject</label>
+                            <select id="subject" name="subject" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 transition-all">
+                                <option value="">Select a subject</option>
+                                <option value="billing">Billing Question</option>
+                                <option value="features">Feature Inquiry</option>
+                                <option value="demo">Demo Request</option>
+                                <option value="support">Technical Support</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-semibold text-gray-700 mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 transition-all" placeholder="Tell us how we can help..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary w-full">Send Message</button>
+                        <p id="formMessage" class="text-center text-sm" style="display: none;"></p>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="space-y-6">
+                    <div class="p-8 bg-gradient-to-br from-orange-50 to-white rounded-lg border border-orange-100 hover:shadow-lg transition-all">
+                        <h3 class="text-2xl font-bold mb-6" style="color: var(--color-primary);">Contact Information</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start gap-4">
+                                <div class="text-3xl flex-shrink-0">📧</div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-2">Email</h4>
+                                    <a href="mailto:support@chotupay.com" style="color: var(--color-primary);" class="font-semibold hover:underline">support@chotupay.com</a>
+                                    <p class="text-sm text-gray-600 mt-1">We'll respond within 24 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="text-3xl flex-shrink-0">📞</div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-2">Phone Support</h4>
+                                    <p class="text-gray-700">+91 80121 08456</p>
+                                    <p class="text-sm text-gray-600 mt-1">24/7 Available for support</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="text-3xl flex-shrink-0">⏰</div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-2">Response Time</h4>
+                                    <p class="text-gray-700">Instant chat support</p>
+                                    <p class="text-sm text-gray-600 mt-1">Available Monday - Sunday, 24/7</p>
+                                </div>
+                            </div>
+
+                            <div class="p-6 bg-white rounded-lg border border-orange-200 mt-8">
+                                <h4 class="font-semibold text-gray-900 mb-3">Quick Links</h4>
+                                <ul class="space-y-2">
+                                    <li><a href="#faq" class="text-gray-700 hover:text-orange-600 transition">View FAQ</a></li>
+                                    <li><a href="#" class="text-gray-700 hover:text-orange-600 transition">Help Center</a></li>
+                                    <li><a href="#" class="text-gray-700 hover:text-orange-600 transition">Documentation</a></li>
+                                    <li><a href="#" class="text-gray-700 hover:text-orange-600 transition">Schedule Demo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="bg-slate-900 text-slate-300 py-16 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-6xl mx-auto">
+        <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
                 <div>
                     <div class="flex items-center space-x-2 mb-4">
-                        <img src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/49deef78-e866-4938-93a7-6c30f87b3805" alt="Chotupay Logo" class="h-8 w-auto">
+                        <img src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/ff499a6f-955a-46e3-a11e-22ef5e4b93b7" alt="Chotupay Logo" class="h-8 w-auto">
                     </div>
-                    <p class="text-sm text-slate-400 mb-4">Smart billing solutions for modern Indian businesses.</p>
+                    <p class="text-sm text-slate-400 mb-4">Smart GST billing and accounting solutions for modern Indian businesses. Cloud-based POS, invoicing, inventory, and business management.</p>
                 </div>
 
                 <div>
                     <h4 class="font-semibold text-white mb-4">Product</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="#features" class="hover:text-emerald-400 transition">Features</a></li>
-                        <li><a href="#pricing" class="hover:text-emerald-400 transition">Pricing</a></li>
-                        <li><a href="#" class="hover:text-emerald-400 transition">Mobile App</a></li>
-                        <li><a href="#" class="hover:text-emerald-400 transition">Security</a></li>
+                        <li><a href="#features" class="hover:text-orange-400 transition">Features</a></li>
+                        <li><a href="#modules" class="hover:text-orange-400 transition">Modules</a></li>
+                        <li><a href="#pricing" class="hover:text-orange-400 transition">Pricing</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition">Mobile App</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition">Security</a></li>
                     </ul>
                 </div>
 
                 <div>
                     <h4 class="font-semibold text-white mb-4">Company</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="#" class="hover:text-emerald-400 transition">About Us</a></li>
-                        <li><a href="#blog" class="hover:text-emerald-400 transition">Blog</a></li>
-                        <li><a href="#" class="hover:text-emerald-400 transition">Careers</a></li>
-                        <li><a href="#contact" class="hover:text-emerald-400 transition">Contact</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition">Blog</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition">Careers</a></li>
+                        <li><a href="#contact" class="hover:text-orange-400 transition">Contact</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition">Partners</a></li>
                     </ul>
                 </div>
 
                 <div>
-                    <h4 class="font-semibold text-white mb-4">Legal</h4>
+                    <h4 class="font-semibold text-white mb-4">Legal & Support</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="#" class="hover:text-emerald-400 transition">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-emerald-400 transition">Terms of Service</a></li>
-                        <li><a href="#" class="hover:text-emerald-400 transition">Cookie Policy</a></li>
-                        <li><a href="#" class="hover:text-emerald-400 transition">Compliance</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition">Cookie Policy</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition">GST Compliance</a></li>
+                        <li><a href="#faq" class="hover:text-orange-400 transition">FAQ</a></li>
                     </ul>
                 </div>
             </div>
 
             <div class="border-t border-slate-700 pt-8">
-                <div class="flex flex-col md:flex-row justify-between items-center">
-                    <p class="text-sm text-slate-400 text-center md:text-left mb-4 md:mb-0">
-                        © 2024 Chotupay. All rights reserved. Built with ❤️ for Indian businesses.
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <p class="text-sm text-slate-400 text-center md:text-left">
+                        © 2024 Chotupay. All rights reserved. Built with ❤️ for Indian businesses. | GST Billing Software | Cloud POS | Inventory Management
                     </p>
                     <div class="flex gap-6">
-                        <a href="#" class="text-slate-400 hover:text-emerald-400 transition">
+                        <a href="#" class="text-slate-400 hover:text-orange-400 transition">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7"></path></svg>
                         </a>
-                        <a href="#" class="text-slate-400 hover:text-emerald-400 transition">
+                        <a href="#" class="text-slate-400 hover:text-orange-400 transition">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a6 6 0 00-6 6v3H7v4h2v8h4v-8h3l1-4h-4V8a2 2 0 012-2h3z"></path></svg>
                         </a>
-                        <a href="#" class="text-slate-400 hover:text-emerald-400 transition">
+                        <a href="#" class="text-slate-400 hover:text-orange-400 transition">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1112.63 8" fill="white"></path></svg>
                         </a>
-                        <a href="#" class="text-slate-400 hover:text-emerald-400 transition">
+                        <a href="#" class="text-slate-400 hover:text-orange-400 transition">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg>
                         </a>
                     </div>
@@ -564,6 +796,73 @@
         </div>
     </footer>
 
-    <script src="script.js" defer></script>
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        if (mobileMenuBtn) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+        
+        // Close mobile menu when link is clicked
+        const mobileLinks = mobileMenu?.querySelectorAll('a');
+        if (mobileLinks) {
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+        }
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Contact form submission
+        const contactForm = document.getElementById('contactForm');
+        const formMessage = document.getElementById('formMessage');
+
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const phone = document.getElementById('phone').value;
+                const company = document.getElementById('company').value;
+                const subject = document.getElementById('subject').value;
+                const message = document.getElementById('message').value;
+
+                // Create mailto link with form data
+                const mailtoLink = `mailto:support@chotupay.com?subject=Contact Form: ${subject} - ${name}&body=Name: ${name}%0DEmail: ${email}%0DPhone: ${phone}%0DCompany: ${company}%0DSubject: ${subject}%0D%0DMessage:%0D${message}`;
+                
+                // Show success message
+                formMessage.textContent = 'Thank you! Redirecting to email...';
+                formMessage.style.color = '#16a34a';
+                formMessage.style.display = 'block';
+                
+                // Redirect to email
+                setTimeout(() => {
+                    window.location.href = mailtoLink;
+                }, 1000);
+
+                // Reset form
+                contactForm.reset();
+                setTimeout(() => {
+                    formMessage.style.display = 'none';
+                }, 3000);
+            });
+        }
+    </script>
 </body>
 </html>
